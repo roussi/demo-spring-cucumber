@@ -24,6 +24,10 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	implementation 'com.h2database:h2:1.4.200'
+
 	testImplementation 'io.cucumber:cucumber-junit:6.8.1'
 	testImplementation 'io.cucumber:cucumber-java:6.8.1'
 	testImplementation 'io.cucumber:cucumber-spring:6.8.1'

@@ -1,4 +1,4 @@
-package com.example.demospringcucumber;
+package com.example.demospringcucumber.cucumber.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.java.DefaultDataTableCellTransformer;
